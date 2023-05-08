@@ -220,7 +220,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 runningCount += 2
             elif value in ["9"]:
                 runningCount -= 1
-            elif value in ["10","J","Q","K"]:
+            elif value in ["10","J","Q","K" , "A"]:
                 runningCount -= 2
             cardCount += 1
         self.textInput.setText("")
